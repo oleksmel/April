@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*font-family: 'Poppins', sans-serif;*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Width: 1440px;
+    height: 90px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #181818;
+    border-radius: 0px;
+}
+
+.head_logo_menu {
+    display: flex;
+    width: 1200px;
+    left: 8.33%;
+    right: 8.33%;
+    height: 90px;
+    top: 20px;
+}
+
+.head_logo {
+    padding: 30px 320px 29px 32px;
+    width: 128px;
+    height: 31px;
+    top: 30px;
+    left: 32px;
+}
+
+.head_menu {
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 699.8125px;
+    left: 480px;
+    padding: 20px 0;
+}
+
+.head_nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 15px 32px;
+}
+
+.get_template {
+    height: 42px;
+    width: 155px;
+    left: 545px;
+    top: 4px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
