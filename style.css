@@ -6,93 +6,92 @@
 
 html,
 body {
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    height: 100%;
 }
 
-.blocks {
+.wrapper {
     max-width: 1440px;
-    margin: 0 auto;
-    background-color: #181818;
+    margin: auto;
 }
 
 .header {
+    position: relative;
+    background: #000;
     max-width: 1440px;
     height: 90px;
-    color: #181818;
 }
 
-.head_container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    height: 90px;
-    margin: 0px 120px;
+.logo {
+    position: absolute;
+    top: 27px;
+    left: 84px;
 }
 
-.head_logo {
-    height: 31px;
-    width: 128px;
-    left: 32px;
-    top: 30px;
-    border-radius: 0px;
-    padding: 30px 320px 29px 32px;
-}
-
-.container_menu {
-    display: flex;
-    justify-content: space-around;
+.naw_wrapper {
+    position: absolute;
+    top: 35px;
+    right: 328px;
 }
 
 .header_menu {
-    position: relative;
     display: flex;
-    justify-content: space-between;
-    height: 50px;
-    width: 699.8125px;
-    top: 20px;
-    bottom: 20px;
-    color: #FFFFFF;
-    list-style-type: none;
+    gap: 40px;
 }
 
-.button_get_template {
-    width: 155px;
-    height: 42px;
-    padding: 9px 20px;
-    margin: 10px;
-    background: #FFFFFF;
-    border-radius: 14px;
+.header_menu li {
+    list-style: none;
+}
+
+.header_menu li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.template_button {
+    position: absolute;
+     font-family: 'Poppins', sans-serif;
+     top: 24px;
+     right: 141px;
     font-size: 16px;
-    letter-spacing: 0.4px;
-    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    width: 156px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
 }
 
-.block1 {
+/***********BLOCK_1************/
 
-}
-
-.block1_container {
-    height: 199px;
-    width: 600px;
-    left: 420px;
-    top: 531px;
-    border-radius: 0px;
-
-}
-
-.photographer {
+.container_block1 {
+    position: relative;
+    background-image: url("files/block1.png");
+    background-repeat: no-repeat;
     text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C0C0C0;
-}
-
-.aperture_studios {
-    color: #FFFFFF;
-    text-align: center;
+    color: #fff;
+    height: 716px;
 }
 
 .block1_text {
-    text-align: center;
-    color: #C0C0C0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
 }
+
+
+/***********BLOCK_2************/
+/***********BLOCK_2************/
+/***********BLOCK_2************/
+/***********BLOCK_2************/
+/***********BLOCK_2************/
+/***********BLOCK_2************/
