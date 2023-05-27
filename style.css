@@ -121,12 +121,94 @@ body {
 
 /***********BLOCK_2************/
 
-.container_block_2 {
-    position: relative;
-    padding: ;
+.block2 {
+    position: absolute;
+    height: 1573px;
+    width: 1440px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #000000;
+    border-radius: 0px;
 }
 
+.container_block_2 {
+    position: relative;
+    background-color: #000;
+    text-align: center;
+    max-width: 1440px;
+    height: 1573px;
+    padding-top: 120px;
+}
 
+.block_2_title {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.block_2_description {
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #C0C0C0;
+}
+
+/*** COMMON STYLES FOR ARTICLE BLOCKS***/
+
+.block_2_artiticles {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 242px;
+    left: 136px;
+    gap: 16px;
+}
+
+.articles_readmore {
+    position: relative;
+    width: 143px;
+    height: 42px;
+}
+
+.small_black_icon {
+   position: absolute;
+    left: 6px;
+    top: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border-radius: 13px;
+}
+
+.b2-article-hyperlink {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.block_2_artickes_1 {
+    background-image: url(files/block2.1.jpg);
+    height: 600px;
+    width: 576px;
+    left: 0%;
+    top: 0%;
+    border-radius: 0px;
+}
+
+.block_2_title {
+    text-align: center;
+    top: 25px;
+}
+
+.block_2_description {
+    text-align: center;
+}
 /***********BLOCK_2************/
 /***********BLOCK_2************/
 /***********BLOCK_2************/
