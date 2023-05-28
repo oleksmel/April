@@ -233,7 +233,7 @@ body {
     width: 143px;
     height: 42px;
     border-radius: 15px;
-
+    top: 528px;
 }
 
 .block_2_articles1_btn_readmore {
@@ -247,7 +247,15 @@ body {
 }
 
 .block_2_articles1_btn_readmore {
-
+    position: absolute;
+    left: 42px;
+    top: 9px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
 }
 
 .block_2_articles2 {
