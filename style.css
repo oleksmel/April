@@ -156,11 +156,11 @@ body {
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
-    /*position: absolute;
+    position: absolute;
 width: 248px;
 height: 42px;
 left: calc(50% - 248px/2);
-top: -7px;*/
+top: -7px;
 }
 
 .block_2_text {
