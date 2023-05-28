@@ -246,9 +246,9 @@ body {
     border-radius: 13px;
 }
 
-.block_2_articles1_btn_readmore {
+.block_2_art1_btn {
     position: absolute;
-    left: 42px;
+    left: 41px;
     top: 9px;
     font-family: 'Poppins';
     text-decoration: none;
@@ -256,6 +256,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #000000;
+    width: 91px;
 }
 
 .block_2_articles2 {
