@@ -124,8 +124,10 @@ body {
 /***********BLOCK_2************/
 
 .block_2 {
+    position: relative;
     height: 1573px;
-    width: 1440px;
+    max-width: 1440px;
+    padding-top: 120px;
 }
 
 .block_2_container {
@@ -133,21 +135,21 @@ body {
     height: 1338px;
     position: absolute;
     height: 1338px;
-    left: 8.33%;
-    right: 8.33%;
+    left: 120px;
+    right: 120px;
     top: 120px;
     align-self: center;
 }
 
 .block_2_head {
-    display: flex;
-    align-self: center;
-    margin-left: 550px;
+    position: absolute;
     height: 82px;
     width: 600px;
     left: 300px;
+    right: 300px;
     top: 0px;
     border-radius: 0px;
+    text-align: center;
 }
 
 .block_2_title {
@@ -157,14 +159,16 @@ body {
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-width: 248px;
-height: 42px;
-left: calc(50% - 248px/2);
-top: -7px;
+    width: 248px;
+    height: 42px;
+    left: 176px;
+    top: 7px;
+    margin-bottom: 15px;
 }
 
 .block_2_text {
     position: absolute;
+    left: 94px;
     width: 413px;
     height: 30px;
     top: 50px;
@@ -173,4 +177,79 @@ top: -7px;
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
+}
+
+/*block_2_articles*/
+
+.block_2_articles {
+    position: absolute;
+    left: 16px;
+    top: 122px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 1216px;
+    width: 1168px;
+    border-radius: 0px;
+    bottom: 115px;
+}
+
+.block_2_articles1 {
+    background-image: url(files/block2.1.jpg);
+    height: 600px;
+    width: 576px;
+    position: absolute;
+    left: 0px;
+    right: 16px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.block_2_articles1_content {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: absolute;
+    height: 40px;
+    left: 30px;
+    top: 421px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.block_2_articles1_content_text {
+    color: #C0C0C0;
+    position: absolute;
+    left: 30px;
+    bottom: 69px;
+}
+
+.block_2_articles1_btn {
+    position: relative;
+    background-color: #fff;
+    margin-left: 30px;
+    width: 143px;
+    height: 42px;
+    border-radius: 15px;
+
+}
+
+.block_2_articles1_btn_readmore {
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border-radius: 13px;
+}
+
+.block_2_articles1_btn_readmore {
+
+}
+
+.block_2_articles2 {
+    background-image: url(files/block2.2.jpg);
 }
