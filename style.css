@@ -379,6 +379,8 @@ body {
     background-color: #000;
 }
 
+/*block_4_left*/
+
 .block_4_left {
     position: absolute;
     top: 113px;
@@ -396,6 +398,7 @@ body {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #C0C0C0;
 }
 
 .block_4_title {
@@ -405,6 +408,20 @@ body {
 .block_4_text {
     color: #C0C0C0;
 }
+
+.block_4_icons {
+        height: 16px;
+        width: 256.75px;
+        position: absolute;
+        left: 1143.25px;
+        top: 544px;
+        border-radius: 0px;
+        bottom: 40px;
+        right: 38px;
+        display: flex;
+        gap: 16px;
+    }
+/*block_4_right*/
 
 .block_4_right {
     background-image: url(files/block4.png);
