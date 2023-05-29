@@ -409,18 +409,30 @@ body {
     color: #C0C0C0;
 }
 
-.block_4_icons {
-        height: 16px;
-        width: 256.75px;
+.block_4_giperlink {
+        height: 42px;
+        width: 152px;
         position: absolute;
-        left: 1143.25px;
-        top: 544px;
-        border-radius: 0px;
+        left: 40px;
         bottom: 40px;
-        right: 38px;
+        border-radius: 15px;
         display: flex;
         gap: 16px;
+        background-color: #C0C0C0;
     }
+
+.block_4_art_btn {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    display: flex;
+    left: 4px;
+    top: 5px;
+    border-radius: 0px;
+    color: #000;
+}
+
+
 /*block_4_right*/
 
 .block_4_right {
