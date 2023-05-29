@@ -302,4 +302,16 @@ body {
 
 .container_block_3 {
     background-image: url(files/block3.jpg);
+    position: relative;
+    top: 0px;
+    max-width: 1440px;
+    height: 600px;
+}
+
+.block_3_write_text {
+    position: absolute;
+    height: 600px;
+    right: 58px;
+    top: 0px;
+    width: 300px;
 }
