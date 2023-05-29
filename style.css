@@ -309,9 +309,30 @@ body {
 }
 
 .block_3_write_text {
-    position: absolute;
-    height: 600px;
-    right: 58px;
-    top: 0px;
     width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 58px;
+}
+
+.text_present {
+    position: absolute;
+    top: 260px;
+    left: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.present_fugi {
+    height: 60px;
+    width: 298px;
+    left: 0px;
+    top: 280px;
+    border-radius: nullpx;
+    
 }
